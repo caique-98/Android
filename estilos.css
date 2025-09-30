@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Android';
+    src: url(android/Android.ttf) format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Uknow';
+    src: url(uknowjack/UKNOWJACK.ttf) format('truetype');
+    font-weight: normal;
+}
+
+:root{
+--color1:  #53ac59;
+--color2:  #3b8952;
+--color3:  #0f684b;
+--color4:  #03484c;
+--color5:  #1c232e; 
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--color1);
+}
+
+header{
+    background-color: var(--color5);
+    background-image: url(terra2.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    text-wrap: nowrap;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.788);
+    color: white;
+}
+
+h1{
+    font-family: 'Uknow';
+    padding-top: 2vh;
+}
+
+header > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    padding-left: 4vw;
+    text-wrap: wrap;
+    font-family: 'Uknow';
+}
+
+h2{
+    font-family: 'Android';
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+main{
+    width: %;
+    background-color: var(--color2);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    background-position: bottom;
+    text-align: center;
+}
+
+footer > p > strong > a{
+    color: white;
+    text-decoration: none;
+}
