@@ -54,7 +54,11 @@ header{
 h1{
     font-family: 'Uknow';
     padding-top: 2vh;
+    color: white;
+    text-shadow: 1px 1px 1px black;
 }
+
+
 
 header > p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -101,6 +105,8 @@ main{
     line-break: strict;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.281);
+
 }
 
 p{
@@ -115,6 +121,15 @@ p{
     background-color: #1a202b;
     color: white;
 }
+
+img{
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+
 
 ul{
     columns: 2;
@@ -142,15 +157,12 @@ footer > p > strong > a{
          background-color: white;
     }
 
-    *{
-        background-color: ;
-    }
 
     main{
         margin-left: 0vh;
         margin-right: 0vh;
         flex-grow: 1;
-        background-color: white;
+        background-color: white;        
     }
     body{
         display: flex;
@@ -160,6 +172,15 @@ footer > p > strong > a{
         background-color: white;
     }
 
+    img{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+
+        src: url(imagens/irina-blok-pq.jpg)
+    }
+
+    
 
 }
 
@@ -169,6 +190,18 @@ footer > p > strong > a{
         margin-left: 10vh;
         margin-right: 10vh;
     }
+
+    img{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    img#bugdroid{
+        width: 60%;
+        margin-left: 17%;
+        margin-right: 17%;
+    }
 }
 
 @media screen and (min-width: 1001px) and (max-width: 1400px){
@@ -176,6 +209,12 @@ footer > p > strong > a{
     main{
         margin-left: 25vh;
         margin-right: 25vh;
+    }
+
+    img#bugdroid{
+        width: 55%;
+        margin-left: 20%;
+        margin-right: 20%;
     }
 }
 
@@ -185,12 +224,24 @@ footer > p > strong > a{
         margin-left: 35vh;
         margin-right: 35vh;
     }
+
+    img#bugdroid{
+        width: 55%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
 }
 
 @media screen and (min-width: 1701px) and (max-width: 6000px){
 
     main{
-        margin-left: 45vh;
-        margin-right: 45vh;
+        margin-left: 50vh;
+        margin-right: 50vh;
+    }
+
+    img#bugdroid{
+        width: 45%;
+        margin-left: 27%;
+        margin-right: 27%;
     }
 }
