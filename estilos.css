@@ -12,6 +12,8 @@
     font-weight: normal;
 }
 
+
+
 :root{
 --color1:  #53ac59;
 --color2:  #3b8952;
@@ -131,6 +133,21 @@ img{
 
 
 
+#video{
+    background-color: #1c232e;
+    display: block;
+    margin: 2vh -2vh 2vh -2vh;
+    padding: 1vh 5vh 1vh 5vh;
+    }
+
+
+
+
+iframe{
+    width: 100%;
+    height: 34vh;
+}
+
 ul{
     columns: 2;
     line-height: 1.6;
@@ -179,7 +196,21 @@ footer > p > strong > a{
         src: url(imagens/irina-blok-pq.jpg)
     }
 
-    
+    #video{
+        
+        padding: 0px;
+        margin: 0px;
+    }
+
+    iframe{
+    width: 100%;
+    height: 40vh;
+}
+
+    nav{
+        display: none;
+    }
+
 
 }
 
@@ -201,6 +232,8 @@ footer > p > strong > a{
         margin-left: 17%;
         margin-right: 17%;
     }
+    
+
 }
 
 @media screen and (min-width: 1001px) and (max-width: 1400px){
@@ -215,6 +248,11 @@ footer > p > strong > a{
         margin-left: 20%;
         margin-right: 20%;
     }
+
+    iframe{
+    width: 100%;
+    height: 40vh;
+}
 }
 
 @media screen and (min-width: 1401px) and (max-width: 1700px){
@@ -229,6 +267,11 @@ footer > p > strong > a{
         margin-left: 20%;
         margin-right: 20%;
     }
+
+    iframe{
+    width: 100%;
+    height: 50vh;
+}
 }
 
 @media screen and (min-width: 1701px) and (max-width: 6000px){
@@ -243,4 +286,9 @@ footer > p > strong > a{
         margin-left: 27%;
         margin-right: 27%;
     }
+
+    iframe{
+    width: 100%;
+    height: 60vh;
+}
 }
