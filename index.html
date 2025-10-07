@@ -14,8 +14,8 @@
             <h1>Curiosidades</h1>
         </a>
         <p>Um mundo a ser descoberto!</p> <br>
-        <span class="material-symbols-outlined">menu</span>
-        <nav>
+        <span class="material-symbols-outlined" onclick="clickMenu()" id="hamb">menu</span>
+        <nav id="itens">
             <a href="index.html" target="_blank" rel="external">Home</a>
             <a href="index.html"target="_blank" rel="external">Noticias</a>
             <a href="index.html"target="_blank" rel="external">Projetos</a>
@@ -98,5 +98,16 @@
     <footer>
         <p>Feito por <strong><a href="https://github.com/caique-98" target="_blank" rel="external">Caique</a></strong></p>
     </footer>
+
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block')
+            {
+                itens.style.display = 'none' 
+            } else{
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
